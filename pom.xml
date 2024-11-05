@@ -4,6 +4,7 @@
   <artifactId>Shopping-Web-Page-Project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+
   <build>
     <plugins>
       <plugin>
@@ -19,10 +20,13 @@
       </plugin>
     </plugins>
   </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit-dep</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
-     <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit-dep</artifactId>
-        <version>4.10</version>
-        <scope>test</scope>
-      </dependency>
